@@ -1,16 +1,16 @@
 # Tiêu chí đánh giá Ngày 2 — Object Detection Annotation (100 điểm)
 
-Bài cá nhân, tổng điểm chính 100; bài này không có hạng mục bonus riêng. Cách đặt tên/nộp bài và deadline ở [SUBMISSION.md](SUBMISSION.md), quy định làm bài ở [RULES.md](RULES.md). [Báo cáo cá nhân](report/individual/MSSV_HoTen.md) tập hợp kết quả của các tiêu chí dưới đây, không có điểm cộng riêng cho độ dài báo cáo.
+Bài cá nhân, tổng điểm chính 100; bài này không có hạng mục bonus riêng. Cách đặt tên/nộp bài và deadline ở [SUBMISSION.md](SUBMISSION.md), quy định làm bài ở [RULES.md](RULES.md). [Báo cáo cá nhân](2A202603142_VuDuyKhanh.md) tập hợp kết quả của các tiêu chí dưới đây, không có điểm cộng riêng cho độ dài báo cáo.
 
-| Tiêu chí | Kết quả bài làm | Điểm |
-| --- | --- | ---: |
-| Hoàn thành và định dạng YOLO | 50 file cùng basename, 5 cột, normalized, bốn class ID đúng | 10 |
-| Đầy đủ vật thể | gán đủ xe thuộc schema, kể cả xe che/cắt khung có thể nhận diện | 20 |
-| Độ bám sát và hình học box | box sát phần vật thể nhìn thấy, không lấn nền/gộp vật thể | 20 |
-| Phân lớp nhất quán | phân biệt `car/truck/bus/van`, không gán vật thể ngoài scope | 15 |
-| Mini guideline và quyết định mơ hồ | định nghĩa lớp, quy tắc box, ít nhất ba case có lý do | 10 |
-| Gold-set annotation QC | `F1 >= 0.80` và `mean IoU >= 0.70` hoặc có vòng rework được giải thích rõ | 15 |
-| Pipeline YOLO và phân tích | Colab chạy được, không dùng eval để train, có metrics/ảnh eval và nhận xét lỗi | 10 |
+| Tiêu chí                           | Kết quả bài làm                                                                | Điểm |
+| ---------------------------------- | ------------------------------------------------------------------------------ | ---: |
+| Hoàn thành và định dạng YOLO       | 50 file cùng basename, 5 cột, normalized, bốn class ID đúng                    |   10 |
+| Đầy đủ vật thể                     | gán đủ xe thuộc schema, kể cả xe che/cắt khung có thể nhận diện                |   15 |
+| Độ bám sát và hình học box         | box sát phần vật thể nhìn thấy, không lấn nền/gộp vật thể                      |   18 |
+| Phân lớp nhất quán                 | phân biệt `car/truck/bus/van`, không gán vật thể ngoài scope                   |   15 |
+| Mini guideline và quyết định mơ hồ | định nghĩa lớp, quy tắc box, ít nhất ba case có lý do                          |   10 |
+| Gold-set annotation QC             | `F1 >= 0.80` và `mean IoU >= 0.70` hoặc có vòng rework được giải thích rõ      |    5 |
+| Pipeline YOLO và phân tích         | Colab chạy được, không dùng eval để train, có metrics/ảnh eval và nhận xét lỗi |   10 |
 
 ## Điều kiện bắt buộc
 

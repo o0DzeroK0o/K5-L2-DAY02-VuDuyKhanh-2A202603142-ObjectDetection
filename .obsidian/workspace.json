@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "report/individual/MSSV_HoTen.md",
+                "file": "report/individual/2A202603142_VuDuyKhanh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MSSV_HoTen"
+              "title": "2A202603142_VuDuyKhanh"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "report/individual/MSSV_HoTen.md",
+                "file": "report/individual/2A202603142_VuDuyKhanh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "report/individual/MSSV_HoTen.md",
+                "file": "report/individual/2A202603142_VuDuyKhanh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "report/individual/MSSV_HoTen.md",
+                "file": "report/individual/2A202603142_VuDuyKhanh.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,7 +190,31 @@
   },
   "active": "442ee366fba4859e",
   "lastOpenFiles": [
+    "SUBMISSION.md",
+    "README.md",
+    "GUIDE.md",
     "GUIDELINE_MINI.md",
-    "report/individual/MSSV_HoTen.md"
+    "RUBRIC.md",
+    "report/individual/2A202603142_VuDuyKhanh.md",
+    "report/individual/assets/yolo26_runs/vehicle_annotation/weights/last.pt",
+    "report/individual/assets/yolo26_runs/vehicle_annotation/weights/best.pt",
+    "report/individual/assets/yolo26_runs/vehicle_eval/val_batch0_pred.jpg",
+    "report/individual/assets/yolo26_runs/vehicle_eval/val_batch0_labels.jpg",
+    "report/individual/assets/yolo26_runs/vehicle_eval/confusion_matrix_normalized.png",
+    "report/individual/assets/yolo26_runs/vehicle_eval/confusion_matrix.png",
+    "report/individual/assets/yolo26_runs/vehicle_eval/BoxR_curve.png",
+    "report/individual/assets/yolo26_runs/vehicle_eval/BoxP_curve.png",
+    "report/individual/assets/yolo26_runs/vehicle_eval/BoxPR_curve.png",
+    "report/individual/assets/yolo26_runs/vehicle_eval/BoxF1_curve.png",
+    "report/individual/assets/yolo26_runs/vehicle_annotation/weights",
+    "report/individual/assets/yolo26_runs/vehicle_annotation/val_batch0_pred.jpg",
+    "report/individual/assets/yolo26_runs/vehicle_annotation/val_batch0_labels.jpg",
+    "report/individual/assets/yolo26_runs/vehicle_annotation/results.csv",
+    "report/individual/assets/yolo26_runs/vehicle_annotation/args.yaml",
+    "report/individual/assets/yolo26_runs/vehicle_eval",
+    "report/individual/assets/yolo26_runs/vehicle_annotation",
+    "report/individual/assets/yolo26_runs",
+    "report/individual/assets/eval_predictions/visuals",
+    "report/individual/assets/eval_predictions"
   ]
 }
