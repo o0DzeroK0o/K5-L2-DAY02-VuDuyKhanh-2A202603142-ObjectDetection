@@ -4,11 +4,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Lớp:
-- Link repo bài làm:
+- Họ tên: Vũ Duy Khanh
+- MSSV: 2A202603142
+- Email: khanhvd.ldm.0299@gmail.com
+- Lớp: L2
+- Link repo bài làm: https://github.com/o0DzeroK0o/K5-L2-DAY02-VuDuyKhanh-2A202603142-ObjectDetection.git
 - Link Colab đã chạy:
 
 ## 2. Schema và mini guideline
@@ -17,24 +17,24 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 ## 3. Annotation và self-QC
 
-- Số file nhãn train:
+- Số file nhãn train: 50
 - Kết quả checker và lỗi đã xử lý:
 - Danh sách ít nhất 10 ảnh đã rà bằng mắt:
 - Lỗi bỏ sót/box/class phát hiện khi rà và cách sửa:
-- Commit khóa nhãn ban đầu:
+- Commit khóa nhãn ban đầu: f82bf4f3ac0c02b1457494827bebe3e2782e5e1d
 
 ## 4. Gold QC và rework
 
-| Chỉ số | Trước sửa | Sau sửa nếu có |
-|---|---:|---:|
-| TP | | |
-| FP | | |
-| FN | | |
-| Precision | | |
-| Recall | | |
-| F1 | | |
-| mean_iou_of_matches | | |
-| passed | | |
+| Chỉ số              | Trước sửa | Sau sửa nếu có |
+| ------------------- | --------: | -------------: |
+| TP                  |       417 |                |
+| FP                  |       352 |                |
+| FN                  |       236 |                |
+| Precision           |    0.5423 |                |
+| Recall              |    0.6386 |                |
+| F1                  |    0.5865 |                |
+| mean_iou_of_matches |    0.8529 |                |
+| passed              |     false |                |
 
 Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi ảnh, lỗi đã kiểm, quyết định sửa/giữ và lý do. Không suy nguyên nhân chỉ từ FP/FN. Không có rework thì ghi rõ.
 
